@@ -13,6 +13,7 @@ assignees:
 
 status-website:
   cname: status.sekai.run
+  favicon: https://raw.githubusercontent.com/bemusicscript/uptime.sekai.run/master/icon.png
   logoUrl: https://raw.githubusercontent.com/bemusicscript/uptime.sekai.run/master/icon.png
   name: Upptime
   introTitle: "Project Sekai Scoreboard status page, powered entirely by GitHub."
@@ -22,3 +23,17 @@ status-website:
       href: /
     - title: Home
       href: https://sekai.run/
+  metaTags:
+    - name: "color-scheme"
+      content: "dark"
+    - name: "robots"
+      content: "noindex nofollow"
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
